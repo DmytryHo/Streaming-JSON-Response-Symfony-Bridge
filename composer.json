@@ -1,0 +1,23 @@
+{
+    "name": "dmytryho/streaming-json-response-symfony-bridge",
+    "description": "Streamable JSON response for Symfony based on violet/streaming-json-encoder",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Hordinky",
+            "email": "dmitriy.gordinskiy94@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2",
+        "violet/streaming-json-encoder": "^1.1",
+        "symfony/http-foundation": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DmytryHo\\JsonStreamedResponse\\": "src/"
+        }
+    }
+}
