@@ -6,7 +6,6 @@ namespace DmytryHo\JsonStreamedResponse\Factory;
 
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use Violet\StreamingJsonEncoder\BufferJsonEncoder;
-use iterable;
 
 class JsonStreamedResponseFactory implements JsonStreamedResponseFactoryInterface
 {
